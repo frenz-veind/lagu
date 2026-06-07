@@ -1,0 +1,51 @@
+body{
+  margin:0;
+  background:#050816;
+  color:#ffd166;
+  font-family:monospace;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.terminal{
+  width:90%;
+  max-width:800px;
+  background:#0d1117;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 0 20px rgba(255,255,255,0.1);
+}
+
+.header{
+  background:#161b22;
+  padding:12px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.header span{
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background:white;
+}
+
+.header p{
+  color:white;
+  margin-left:10px;
+}
+
+#lyrics{
+  padding:40px;
+  min-height:250px;
+  font-size:22px;
+  line-height:1.7;
+  white-space:pre-line;
+}
+
+audio{
+  width:100%;
+}
